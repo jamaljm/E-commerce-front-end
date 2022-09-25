@@ -1,7 +1,8 @@
-import Navbar from "./components/topbar/topbar"
+import Navbar from "./components/topbar/topbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./pages/home/Home";
-import "./app.css"
+import "./app.css";
+
 
 function App() {
   return (
