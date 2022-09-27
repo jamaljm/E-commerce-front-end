@@ -17,7 +17,7 @@ export default function Sidebar() {
            <ul className="sidebarList">
             {/* <Link to="" className="link"> */}
             <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
+              <LineStyle className="sidebarIcon active" />
               Home
             </li>
             <li className="sidebarListItem">

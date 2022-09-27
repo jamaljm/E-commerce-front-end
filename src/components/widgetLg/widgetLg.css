@@ -26,8 +26,8 @@
 }
 
 .widgetLgImg {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 10px;
@@ -43,17 +43,13 @@
   border-radius: 10px;
 }
 
-.widgetLgButton.Approved{
+.widgetLgButton.Stock{
     background-color: #e5faf2;
     color: #3bb077;
 }
-.widgetLgButton.Declined{
+.widgetLgButton.Out.of.stock{
     background-color: #fff0f1;
     color: #d95087;
 
 }
-.widgetLgButton.Pending{
-    background-color: #ebf1fe;
-    color: #2a7ade;
 
-}

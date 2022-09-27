@@ -6,74 +6,75 @@ export default function WidgetLg() {
   };
   return (
     <div className="widgetLg">
-      <h3 className="widgetLgTitle">Latest transactions</h3>
+      <h3 className="widgetLgTitle">Products</h3>
       <table className="widgetLgTable">
         <tr className="widgetLgTr">
-          <th className="widgetLgTh">Customer</th>
-          <th className="widgetLgTh">Date</th>
-          <th className="widgetLgTh">Amount</th>
-          <th className="widgetLgTh">Status</th>
+          <th className="widgetLgTh">Products</th>
+          <th className="widgetLgTh">Quantity</th>
+          <th className="widgetLgTh">Price</th>
+          <th className="widgetLgTh">Stock</th>
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
             <img
-              src="https://media-exp1.licdn.com/dms/image/C5603AQG1l7koyETjWQ/profile-displayphoto-shrink_400_400/0/1644845710066?e=1669852800&v=beta&t=nxtv4JFwN4NqSulOskNC8I5nq4r0mrVoiAuFuMLlAW8"
+              src="https://m.media-amazon.com/images/I/61eDXs9QFNL._SX522_.jpg"
               alt=""
               className="widgetLgImg"
             />
-            <span className="widgetLgName">Nazim Filzer</span>
+            <span className="widgetLgName">iPhone 14 Pro</span>
           </td>
-          <td className="widgetLgDate">2 Jun 2021</td>
+          <td className="widgetLgQuantity">234</td>
           <td className="widgetLgAmount">$122.00</td>
           <td className="widgetLgStatus">
-            <Button type="Approved" />
-          </td>
-        </tr>
-        <tr className="widgetLgTr">
-          <td className="widgetLgUser">
-            <img
-              src="https://media-exp1.licdn.com/dms/image/C5603AQG1l7koyETjWQ/profile-displayphoto-shrink_400_400/0/1644845710066?e=1669852800&v=beta&t=nxtv4JFwN4NqSulOskNC8I5nq4r0mrVoiAuFuMLlAW8"
-              alt=""
-              className="widgetLgImg"
-            />
-            <span className="widgetLgName">Nazim Filzer</span>
-          </td>
-          <td className="widgetLgDate">2 Jun 2021</td>
-          <td className="widgetLgAmount">$122.00</td>
-          <td className="widgetLgStatus">
-            <Button type="Declined" />
+            <Button type="Stock" />
           </td>
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
             <img
-              src="https://media-exp1.licdn.com/dms/image/C5603AQG1l7koyETjWQ/profile-displayphoto-shrink_400_400/0/1644845710066?e=1669852800&v=beta&t=nxtv4JFwN4NqSulOskNC8I5nq4r0mrVoiAuFuMLlAW8"
+              src="https://m.media-amazon.com/images/I/61eDXs9QFNL._SX522_.jpg"
               alt=""
               className="widgetLgImg"
             />
-            <span className="widgetLgName">Nazim Filzer</span>
+            <span className="widgetLgName">iPhone 14 Pro</span>
           </td>
-          <td className="widgetLgDate">2 Jun 2021</td>
+          <td className="widgetLgQuantity">342</td>
           <td className="widgetLgAmount">$122.00</td>
           <td className="widgetLgStatus">
-            <Button type="Pending" />
+            <Button type="Out of stock" />
           </td>
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
             <img
-              src="https://media-exp1.licdn.com/dms/image/C5603AQG1l7koyETjWQ/profile-displayphoto-shrink_400_400/0/1644845710066?e=1669852800&v=beta&t=nxtv4JFwN4NqSulOskNC8I5nq4r0mrVoiAuFuMLlAW8"
+              src="https://m.media-amazon.com/images/I/61eDXs9QFNL._SX522_.jpg"
               alt=""
               className="widgetLgImg"
             />
-            <span className="widgetLgName">Nazim Filzer</span>
+            <span className="widgetLgName">iPhone 14 Pro</span>
           </td>
-          <td className="widgetLgDate">2 Jun 2021</td>
+          <td className="widgetLgQuantity">4535</td>
           <td className="widgetLgAmount">$122.00</td>
           <td className="widgetLgStatus">
-            <Button type="Approved" />
+            <Button type="Stock" />
           </td>
         </tr>
+        <tr className="widgetLgTr">
+          <td className="widgetLgUser">
+            <img
+              src="https://m.media-amazon.com/images/I/61eDXs9QFNL._SX522_.jpg"
+              alt=""
+              className="widgetLgImg"
+            />
+            <span className="widgetLgName">iPhone 14 Pro</span>
+          </td>
+          <td className="widgetLgQuantity">435</td>
+          <td className="widgetLgAmount">$122.00</td>
+          <td className="widgetLgStatus">
+            <Button type="Stock" />
+          </td>
+        </tr>
+        
       </table>
     </div>
   );

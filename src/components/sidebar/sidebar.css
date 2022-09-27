@@ -3,7 +3,7 @@
   height: calc(100vh - 50px);
   background-color: rgb(255, 255, 255);
   position: sticky;
-  top: 50px;
+  top: 70px;
   border-radius: 30px;
 }
 
@@ -37,9 +37,15 @@
 .sidebarListItem.active,
 .sidebarListItem:hover {
   background-color: #0c105a;
+  color: #fff;
+
 }
 
 .sidebarIcon{
     margin-right: 5px;
     font-size: 20px !important;
+}
+.sidebarIcon.active{
+  color: #fff;
+
 }
