@@ -1,6 +1,7 @@
 .container{
     display: flex;
     margin-top: 10px;
+    background: rgb(246 248 250);
 }
 
 
@@ -8,4 +9,6 @@
     text-decoration: none;
     color: inherit;
 }
-//
+.App{
+    background: rgb(246 248 250);
+}
