@@ -1,66 +1,56 @@
 import React from "react";
 import { useState } from "react";
-import "./login.css"
 
 const Login = () => {
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const signIn = (event) => {
-    event.preventDefault();
-  };
+  const [password, setPass] = useState("");
 
-  const signUp = (event) => {
-    event.preventDefault();
-  };
 
   return (
-    <div>
-      <div className="login">
-        <div>
-          <img
-            className="login__logo"
-            src="https://static.vecteezy.com/system/resources/previews/006/547/178/original/creative-modern-abstract-ecommerce-logo-design-colorful-gradient-online-shopping-bag-logo-design-template-free-vector.jpg"
-            alt="ecommerce"
-            style={{ display: "flex", justifyContent: "center" }}
-          />
-          <div className="login__container">
-            <h1>Sign-in</h1>
-
-            <form>
-              <h5>E-mail</h5>
-              <input
-                type="email"
-                value={email}
-                onChange={(event) => setEmail(event.target.value)}
-                autocomplete="on"
-              />
-
-              <h5>Password</h5>
-              <input
-                type="password"
-                value={password}
-                onChange={(event) => setPassword(event.target.value)}
-              />
-
-              <button
-                type="submit"
-                className="login__signInButton"
-                onClick={signIn}
-              >
-                Sign In
-              </button>
-            </form>
-
-            <p>
-              By signing-in you agree to the ecommerce Conditions of Use & Sale.
-            </p>
-
-            <button className="login__registerButton" onClick={signUp}>
-              Create your E-commerce Account
+    <div className="row justify-content-center mt-7 mx-2">
+    <div class="row">
+      <div class="col-md-3 col-10 mx-auto mb-3 my-5 py-5 border shadow" >
+        <h3 class="text-center mb-3" style={{textDecoration : 'underline'}}>Sign-In </h3>
+        <form id="form" >
+          <div class="form-group">
+            <label>Email</label>
+            <input
+              name=""
+              id="weight"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              type="text"
+              placeholder="email"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input
+              name=""
+              id="height"
+              value={password}
+              onChange={(e) => setPass(e.target.value)}
+              type="text"
+              placeholder="password"
+              class="form-control"
+              required
+            />
+          </div>
+          <div style={{display:'flex' , justifyContent:'center',marginTop : '15px'}}>
+            <button type="submit" class="btn btn-primary btn-block col-md-5"  >
+              Sign In
             </button>
           </div>
-        </div>
+        </form>
+        
+          <div style={{display:'flex' , justifyContent:'center',marginTop : '5px',textDecoration :'underline'}}>
+            <h6>Forgot password?</h6>
+          </div>
+         
       </div>
+    </div>
     </div>
   );
 };
