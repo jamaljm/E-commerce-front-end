@@ -24,7 +24,7 @@ export default function WidgetLg() {
             <span className="widgetLgName">iPhone 14 Pro</span>
           </td>
           <td className="widgetLgQuantity">234</td>
-          <td className="widgetLgAmount">$122.00</td>
+          <td className="widgetLgAmount">₹12342.00</td>
           <td className="widgetLgStatus">
             <Button type="Stock" />
           </td>
@@ -39,7 +39,7 @@ export default function WidgetLg() {
             <span className="widgetLgName">iPhone 14 Pro</span>
           </td>
           <td className="widgetLgQuantity">342</td>
-          <td className="widgetLgAmount">$122.00</td>
+          <td className="widgetLgAmount">₹13422.00</td>
           <td className="widgetLgStatus">
             <Button type="Out of stock" />
           </td>
@@ -54,7 +54,7 @@ export default function WidgetLg() {
             <span className="widgetLgName">iPhone 14 Pro</span>
           </td>
           <td className="widgetLgQuantity">4535</td>
-          <td className="widgetLgAmount">$122.00</td>
+          <td className="widgetLgAmount">₹14322.00</td>
           <td className="widgetLgStatus">
             <Button type="Stock" />
           </td>
@@ -69,7 +69,7 @@ export default function WidgetLg() {
             <span className="widgetLgName">iPhone 14 Pro</span>
           </td>
           <td className="widgetLgQuantity">435</td>
-          <td className="widgetLgAmount">$122.00</td>
+          <td className="widgetLgAmount">₹132422.00</td>
           <td className="widgetLgStatus">
             <Button type="Stock" />
           </td>
