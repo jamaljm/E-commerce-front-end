@@ -1,6 +1,6 @@
 import "./sidebar.css";
 import {
-  LineStyle,
+  Widgets,
   TrendingUp,
   PermIdentity,
   Storefront,
@@ -17,7 +17,7 @@ export default function Sidebar() {
            <ul className="sidebarList">
             {/* <Link to="" className="link"> */}
             <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon active" />
+              <Widgets className="sidebarIcon active" />
               Home
             </li>
             <li className="sidebarListItem">
