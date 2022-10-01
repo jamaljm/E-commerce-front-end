@@ -7,7 +7,7 @@ import {
   AttachMoney,
   BarChart,
 } from "@material-ui/icons";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -15,15 +15,18 @@ export default function Sidebar() {
       <div className="sidebarWrapper">
         <div className="sidebarMenu">
            <ul className="sidebarList">
-            {/* <Link to="" className="link"> */}
+            <Link to="/" className="link">
             <li className="sidebarListItem active">
               <Widgets className="sidebarIcon active" />
               Home
             </li>
+            </Link>
+            <Link to="/products" className="link">
             <li className="sidebarListItem">
               <TrendingUp className="sidebarIcon" />
-              Sales
+              Products
             </li>
+            </Link>
               {/* <Link to="" className="link"> */}
               <li className="sidebarListItem">
                 <PermIdentity className="sidebarIcon" />

@@ -1,0 +1,89 @@
+.product_body{
+  flex: 4;
+  margin: 0px 20px;
+  border-radius: 20px;
+}
+.productList{
+    flex: 4;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.productListItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.productListEdit{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #4e52a7;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.productListDelete{
+    color: rgb(119 0 0);
+    cursor: pointer;
+}
+
+.newProduct {
+    flex: 4;
+  }
+  
+  .addProductForm {
+    margin-top: 10px;
+    display: flex;
+    gap:10px;
+
+  }
+  .addProductTitle{
+    font-weight: 600;
+    color: #0c105a;
+  }
+  .addProductItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+  }
+  
+  .addProductItem > label {
+    color: #667597;
+    font-weight: 550;
+    margin-bottom: 10px;
+  }
+  
+  .addProductItem > input {
+    padding: 10px;
+  }
+  
+  .addProductItem > select {
+    padding: 10px;
+  }
+  .addProductItem input{
+    border-radius: 20px;
+  }
+  .addProductButton {
+    margin-top: 32px;
+    width: 150px;
+    height: 45px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .product_table{
+    background-color: #fff;
+    margin-top: 20px;
+  }
