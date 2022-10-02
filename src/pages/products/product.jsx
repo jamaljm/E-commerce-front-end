@@ -49,7 +49,7 @@ export default function ProductList() {
             
           <>
           
-            <Link to={"/product/" + params.row.id}>
+            <Link to={"/products" }>
               <button className="productListEdit">Edit</button>
             </Link>
             <DeleteOutline

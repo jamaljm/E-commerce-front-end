@@ -1,6 +1,6 @@
 import "./addproduct.css";
 
-export default function FeaturedInfo() {
+export default function AddProduct() {
   return (
     <div className="productList">
       <div className="newProduct">
