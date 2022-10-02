@@ -3,14 +3,25 @@
   margin: 0px 20px;
   border-radius: 20px;
 }
-
+.product_table{
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 30px;
+}
 
 .productListItem{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.productListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
 
 .productListEdit{
     border: none;
@@ -27,8 +38,3 @@
     cursor: pointer;
 }
 
-  .product_table{
-    background-color: #fff;
-    margin-top: 20px;
-    border-radius: 20px;
-  }

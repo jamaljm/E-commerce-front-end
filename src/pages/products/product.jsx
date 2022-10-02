@@ -23,12 +23,13 @@ export default function ProductList() {
         return (
             
           <div className="productListItem">
+          <img className="productListImg" src={params.row.img} alt="" />
             {params.row.name}
           </div>
         );
       },
     },
-    { field: "stock", headerName: "Description", width: 200 },
+    { field: "description", headerName: "Description", width: 200 },
     {
       field: "status",
       headerName: "Catogary",
