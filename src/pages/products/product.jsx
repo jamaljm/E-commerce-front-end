@@ -4,6 +4,7 @@ import { DeleteOutline } from "@material-ui/icons";
 import { productRows } from "../../dummyData";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Addproduct from "../../components/addproduct/addproduct";
 
 export default function ProductList() {
   const [data, setData] = useState(productRows);
@@ -27,11 +28,11 @@ export default function ProductList() {
         );
       },
     },
-    { field: "stock", headerName: "Stock", width: 200 },
+    { field: "stock", headerName: "Description", width: 200 },
     {
       field: "status",
-      headerName: "Status",
-      width: 120,
+      headerName: "Catogary",
+      width: 170,
     },
     {
       field: "price",
@@ -62,28 +63,8 @@ export default function ProductList() {
 
   return (
     <div className="product_body">
-    <div className="productList">
-      <div className="newProduct">
-      <h2 className="addProductTitle">Add New Product</h2>
-      <form className="addProductForm">
-        <div className="addProductItem">
-          <label>Name</label>
-          <input type="text" placeholder="Apple Airpods" />
-        </div>
-        <div className="addProductItem">
-          <label>Stock</label>
-          <input type="text" placeholder="123" />
-        </div>
-        <div className="addProductItem">
-          <label>Active</label>
-          <input type="text" placeholder="123" />
-        </div>
-        <div className="addProductItem">
-        <button className="addProductButton">Create</button>
-        </div>
-      </form>
-    </div>
-    </div>
+      <Addproduct />
+   
     <div className="product_table" style={{ height: 450,padding:'20px'}}>
       <DataGrid
         sx={{ m: 2 }}

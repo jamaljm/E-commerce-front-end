@@ -165,7 +165,7 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "32120.00",
     },
     {
       id: 2,
@@ -174,7 +174,7 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "12120.00",
     },
     {
       id: 3,
@@ -183,7 +183,7 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "13120.00",
     },
     {
       id: 4,
@@ -192,7 +192,7 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "324120.00",
     },
     {
       id: 5,
@@ -201,7 +201,7 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "32120.00",
     },
     {
       id: 6,
@@ -210,7 +210,7 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "3120.00",
     },
     {
       id: 7,
@@ -219,7 +219,7 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "4120.00",
     },
     {
       id: 8,
@@ -228,7 +228,7 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "34120.00",
     },
     {
       id: 9,
@@ -237,7 +237,7 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "34120.00",
     },
     {
       id: 10,
@@ -246,6 +246,6 @@ export const userData = [
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "34120.00",
     },
   ];
